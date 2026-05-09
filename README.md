@@ -46,6 +46,7 @@ Crowd crush is the term used to describe when a crowd becomes so dense that fata
 | 6 | Video frame pipeline | ⚠️ In Progress |
 | 7 | ROS2 drone integration | 🔲 Planned |
 | 8 | CSRNet density estimation | 🔲 Planned |
+
 ---
 ## References
 
