@@ -3,7 +3,7 @@ computer vision system intended for use with aerial drone footage in order detec
 
 ---
 ## Overview
-Crowd crush is the term used to describe when a crowd becomes so dense that fatalities can occur from compressive asphyxia caused by high crowd density.
+Crowd crush is the term used to describe when a crowd becomes so dense that fatalities can occur from compressive asphyxia caused by high crowd density. This project is intended for use of a drone to autonomously patrol a designated area and monitor crowds for associated risk conditions. Due to the diffuiculty of simulating the associated conditions with this project, the files here remain an AI pipeline, and will be updated in the future.
 
 ---
 ## Risk Thresholds
@@ -33,6 +33,19 @@ Crowd crush is the term used to describe when a crowd becomes so dense that fata
 4. Training takes around 1 hour on first run but weights will be saved to Drive
    so you only train once
 6. Set your video file path in Step 10 and run the pipeline
+---
+## Pipeline Stages
+
+| Stage | Description | Status |
+|-------|-------------|--------|
+| 1 | Data collection & preparation | ✅ Complete |
+| 2 | YOLOv8m fine-tuning on VisDrone | ✅ Complete |
+| 3 | Density estimation & optical flow | ✅ Complete |
+| 4 | Risk classification & alerts | ✅ Complete |
+| 5 | Dashboard visualisation | ✅ Complete |
+| 6 | Video frame pipeline | ⚠️ In Progress |
+| 7 | ROS2 drone integration | 🔲 Planned |
+| 8 | CSRNet density estimation | 🔲 Planned |
 ---
 ## References
 
